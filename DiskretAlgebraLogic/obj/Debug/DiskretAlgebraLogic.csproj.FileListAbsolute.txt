@@ -30,3 +30,13 @@ C:\Users\Gamer\source\repos\DiskretAlgebraLogic\DiskretAlgebraLogic\DiskretAlgeb
 C:\Users\Gamer\source\repos\DiskretAlgebraLogic\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.csproj.CoreCompileInputs.cache
 C:\Users\Gamer\source\repos\DiskretAlgebraLogic\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.exe
 C:\Users\Gamer\source\repos\DiskretAlgebraLogic\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.pdb
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\bin\Debug\DiskretAlgebraLogic.exe.config
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\bin\Debug\DiskretAlgebraLogic.exe
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\bin\Debug\DiskretAlgebraLogic.pdb
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.csproj.AssemblyReference.cache
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.Form1.resources
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.Properties.Resources.resources
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.csproj.GenerateResource.cache
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.csproj.CoreCompileInputs.cache
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.exe
+D:\VSrepos\VS2022\DiskretAlgebraLogic\DiskretAlgebraLogic\obj\Debug\DiskretAlgebraLogic.pdb
