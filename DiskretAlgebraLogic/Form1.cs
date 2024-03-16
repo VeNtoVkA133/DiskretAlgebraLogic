@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -92,12 +93,6 @@ namespace DiskretAlgebraLogic
             return ab;
         }
 
-
-
-
-
-
-
         static int oneitsone(int i)
         {
             if (i > 1)
@@ -130,6 +125,14 @@ namespace DiskretAlgebraLogic
 
         private void button1_Click(object sender, EventArgs e)
         {
+            listBox3.Items.Clear();
+            listBox4.Items.Clear();
+            listBox5.Items.Clear();
+            listBox6.Items.Clear();
+            listBox7.Items.Clear();
+            listBox8.Items.Clear();
+            listBox9.Items.Clear();
+            listBox10.Items.Clear();
             for (int i = 0; i < a.Length; i++)
             {
                 aUb[i] = aub(a[i], b[i]);
@@ -166,12 +169,61 @@ namespace DiskretAlgebraLogic
 
             }
         }
+
+
         private void button2_Click(object sender, EventArgs e)
         {
+            listBox28.Items.Clear();
+            listBox29.Items.Clear();
+            listBox30.Items.Clear();
+            listBox31.Items.Clear();
+            listBox32.Items.Clear();
+            listBox33.Items.Clear();
+            listBox34.Items.Clear();
+            listBox35.Items.Clear();
             int pa = Convert.ToInt32(textBox1.Text);
             int pb = Convert.ToInt32(textBox2.Text);
             int pc = Convert.ToInt32(textBox3.Text);
             int pd = Convert.ToInt32(textBox4.Text);
+
+            if (pa < 0 || pa > 1)
+            {
+                label2.Text = ("ОШИБКА в А!! Введите число 0 или 1");
+                label2.Visible = true;
+                label3.Text = "Ошибочное значение заменено на 0!!!";
+                label3.Visible = true;
+                textBox1.Text = "0";
+            }
+            else if (pb < 0 || pb > 1)
+            {
+                label2.Text = ("ОШИБКА в B!! Введите число 0 или 1");
+                label2.Visible = true;
+                label3.Text = "Ошибочное значение заменено на 0!!!";
+                label3.Visible = true;
+                textBox2.Text = "0";
+            }
+            else if (pc < 0 || pc > 1)
+            {
+                label2.Text = ("ОШИБКА в C!! Введите число 0 или 1");
+                label2.Visible = true;
+                label3.Text = "Ошибочное значение заменено на 0!!!";
+                label3.Visible = true;
+                textBox3.Text = "0";
+            }
+            else if (pd < 0 || pd > 1)
+            {
+                label2.Text = ("ОШИБКА в D!! Введите число 0 или 1");
+                label2.Visible = true;
+                label3.Text = "Ошибочное значение заменено на 0!!!";
+                label3.Visible = true;
+                textBox4.Text = "0";
+            }
+            else
+            {
+                label2.Visible = false;
+                label3.Visible = false;
+            }
+
 
             paUpb = aub(pa, pb);
             paYpb = ayb(pa, pb);
